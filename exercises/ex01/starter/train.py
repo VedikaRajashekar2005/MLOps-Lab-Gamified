@@ -29,7 +29,7 @@ def main() -> None:
 
     # 4. Train a baseline model
     # TODO: Try different models here! LinearRegression, DecisionTreeRegressor, RandomForestRegressor, etc.
-    model = LinearRegression()
+    model = DecisionTreeRegression()
     model.fit(X_train, y_train)
 
     # 5. Check your local validation RMSE
